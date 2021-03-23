@@ -10,6 +10,22 @@
     <title>Convertor de moedas - ImersãoDev</title>
 <html>
     <body>
-        <img src="img/bitcoin-icon.png" alt="MoedaBitCoin">
+        <main>
+            <img src="img/bitcoin-icon.png" alt="MoedaBitCoin">
+            <section class="converter">
+                <section class="first-currency">
+                    <div>
+                        <select class="currency-type-from" name="currency">
+                            <option value="btc">BTC</option>
+                            <option value="brl">BRL</option>
+                            <option value="usd">USD</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input id="currency-value-from" type="number" placeholder="00.00" required autofocus>
+                    </div>
+                </section>
+            </section>
+        </main>
     </body>
 </html>
