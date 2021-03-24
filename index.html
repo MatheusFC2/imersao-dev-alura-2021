@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/Moedaicon.png">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <title>Convertor de moedas - ImersãoDev</title>
 <html>
     <body>
         <main>
-            <img src="img/bitcoin-icon.png" alt="MoedaBitCoin">
+
             <section class="converter">
+                <img src="img/bitcoin-icon.png" alt="MoedaBitCoin">
+                <label class="type" for="currency">de:</label>
                 <section class="first-currency">
                     <div>
                         <select class="currency-type-from" name="currency">
@@ -25,6 +28,20 @@
                         <input id="currency-value-from" type="number" placeholder="00.00" required autofocus>
                     </div>
                 </section>
+                <label class="type" for="current-value">para:</label>
+                <section class="second-currency">
+                    <div>
+                        <select class="currency-type-to" name="currency">
+                            <option value="bct">BTC</option>
+                            <option value="brl">BRL</option>
+                            <option value="usd">USD</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input id="currency-value-from" type="number" placeholder="00.00" required autofocus>
+                    </div>
+                </section>
+                <button>Converter</button>
             </section>
         </main>
     </body>
