@@ -1,13 +1,83 @@
 body {
-    background-color: aliceblue;
+    background: url(https://cdn.hipwallpaper.com/i/68/42/x9ZQCK.png);
     align-items: center;
     text-align: center;
     margin-top: 10%;
 }
 
 img {
+    margin-top: 2rem;
     min-width: 120px;
     max-width: 120px;
     align-items: center;
 
+
+}
+
+.converter {
+    background: black;
+    width: 40rem;
+    height: 40rem;
+    margin: 3rem auto;
+    border-radius: 25px;
+}
+
+
+.first-currency, .second-currency {
+    display: flex;
+}
+
+.type {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 6.5rem;
+    font-family: 'Secular One';
+    font-size: 2rem;
+    color: rgb(150, 150, 150);
+}
+
+.currency-type-from, .currency-type-to {
+    font-family: 'Secular One';
+    font-size: 2rem;
+    color: rgb(35, 35, 35);
+    width: 8rem;
+    padding: 0.75rem;
+    margin: 0.05rem 1.25rem 1.75rem 5.25rem;
+}
+
+#currency-value-from {
+    font-family: 'Secular One';
+    font-size: 2rem;
+    color: rgb(35, 35, 35);
+    width: 13.5rem;
+    padding: 0.75rem;
+    margin: 0.05rem 1.25rem 1.75rem 0;
+}
+
+#currency-value-to {
+    background-color: white;
+    font-family: 'Secular One';
+    font-size: 2rem;
+    color: rgb(35, 35, 35);
+    width: 13.5rem;
+    padding: 0.75rem;
+    margin: 0.05rem 1.25rem 1.75rem 0;
+}
+
+#currency-value-to::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    font-family: 'Secular One';
+    width: 93%;
+    color: 	#000;
+    background: #ff9a00;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    margin: 2.25rem 0 0 0;
+    transition: 200ms;
+    border-radius: 25px;
 }
